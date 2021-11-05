@@ -22,14 +22,14 @@ function App() {
       <Navigation />
       <Intro />
       <WeddingDetails />
-      <Parallax image="https://live.staticflickr.com/65535/49124363181_71351d15c1_h.jpg" />
+      <Parallax image="https://live.staticflickr.com/65535/49124363181_71351d15c1_h.jpg" position='50% 20%' />
       <Food />
       <Gallery />
       <Travel />
-      <Parallax image="https://live.staticflickr.com/65535/48976266966_d4491b15c5_h.jpg" />
+      <Parallax image="https://live.staticflickr.com/65535/48976266966_d4491b15c5_h.jpg" position='50% 20%' />
       <Parking />
       <RSVP />
-      <Parallax image="https://live.staticflickr.com/65535/49564381476_56afcc5dbd_h.jpg" position='50% -377px' />
+      <Parallax image="https://live.staticflickr.com/65535/49564381476_56afcc5dbd_h.jpg" position='50% 80%' />
       <Gifts />
       
     </Layout>
