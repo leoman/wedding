@@ -8,15 +8,15 @@ export const GalleryWrapper = styled.section`
 
 export const ItemsWrapper = styled.div`
     position: relative;
-    height: 950px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 `;
 
 export const Item = styled.div`
-    width: 25%;
-    height: 475px;
+    width: 33.3%;
+    height: 400px;
     /* position: absolute;
     left: 0px;
     top: 0px; */

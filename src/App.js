@@ -18,18 +18,18 @@ import './App.css';
 function App() {
   return (
     <Layout>
-      <FullScreen image="https://live.staticflickr.com/65535/48669287526_009e0115dc_4k.jpg" />
+      <FullScreen image="https://live.staticflickr.com/65535/48668920908_2c6c9c3c0f_h.jpg" />
       <Navigation />
       <Intro />
       <WeddingDetails />
-      <Parallax image="https://live.staticflickr.com/65535/49124363181_9c81445264_k.jpg" />
+      <Parallax image="https://live.staticflickr.com/65535/49124363181_71351d15c1_h.jpg" />
       <Food />
       <Gallery />
       <Travel />
-      <Parallax image="https://live.staticflickr.com/65535/48978225946_220a3f92dd_3k.jpg" position='50% -377px' />
+      <Parallax image="https://live.staticflickr.com/65535/48976266966_d4491b15c5_h.jpg" />
       <Parking />
       <RSVP />
-      <Parallax image="https://live.staticflickr.com/65535/49564381476_3afaea2171_k.jpg" position='50% -377px' />
+      <Parallax image="https://live.staticflickr.com/65535/49564381476_56afcc5dbd_h.jpg" position='50% -377px' />
       <Gifts />
       
     </Layout>
