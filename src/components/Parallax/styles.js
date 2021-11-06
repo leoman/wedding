@@ -13,6 +13,7 @@ export const ParallaxWrapper = styled.section`
     @media only screen and (max-width: 768px) {
         background-size: contain;
         background-position: center center !important;
+        background-attachment: local;
     }
 
     img {
