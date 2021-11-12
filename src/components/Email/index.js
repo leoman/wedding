@@ -1,18 +1,38 @@
-import React, { useState } from 'react'
+import React, { useCallback, useState } from 'react'
 
 const Email = ({ title, price }) => {
 
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+
+  const sendEmail = useCallback((e) => {
+    if (!sending) {
+      console.count('sending');
+      setSending(true);
+      window.emailjs.sendForm('service_v77c6hx', 'template_pdlz1d6', e.target, 'user_xcmuXoEoRTExhCQQnDkOm')
+      .then((result) => {
+        console.log(result);
+        setSent(true);
+        setSending(false);
+      }, (error) => {
+        setSent(true);
+        setSending(false);
+        console.log(error.text);
+      });
+    }
+  }, [sending, setSent, setSending])
   
   onsubmit = (e) => {
     e.preventDefault();
-    window.emailjs.sendForm('service_v77c6hx', 'template_pdlz1d6', e.target, 'user_xcmuXoEoRTExhCQQnDkOm')
-    .then((result) => {
-      setSent(true);
-    }, (error) => {
-      setSent(true);
-      console.log(error.text);
-    });
+    sendEmail(e);
+  }
+
+  if (sending) {
+    return <p>Sending...</p>
+  }
+
+  if (sent) {
+    return <p>Thank you for your message!</p>
   }
   
   return (

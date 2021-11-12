@@ -212,7 +212,7 @@ const GiftsList = ({ showGiftPopup }) => (
   </GiftsListWrapper>
 );
 
-const GiftPopUp = ({ showPopup, closeGiftPopup, giftItem: { title, description, price } }) => (
+const GiftPopUp = ({ showPopup, closeGiftPopup, setShowPopup, giftItem: { title, description, price } }) => (
   <GiftPopUpWrapper display={showPopup}>
     <PopUpWrapper>
       <Close onClick={closeGiftPopup}>X</Close>
@@ -231,7 +231,7 @@ const GiftPopUp = ({ showPopup, closeGiftPopup, giftItem: { title, description, 
       </ContentWrapper>
       <BankingWrapper>
         
-        <Email title={title} price={price} />
+        <Email setShowPopup={setShowPopup} title={title} price={price} />
       </BankingWrapper>
     </PopUpWrapper>
   </GiftPopUpWrapper>
@@ -253,11 +253,14 @@ const Gifts = () => {
 
   return (
     <Wrapper id="gifts" className="gifts">
+      {showPopup && (
       <GiftPopUp
         showPopup={showPopup}
         closeGiftPopup={closeGiftPopup}
+        setShowPopup={setShowPopup}
         giftItem={giftItem}
       />
+      )}
       <div className="container">
         <div className="vc_row wpb_row vc_row-fluid">
           <div className="wpb_column vc_column_container vc_col-sm-12">
