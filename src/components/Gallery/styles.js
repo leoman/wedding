@@ -20,6 +20,15 @@ export const Item = styled.div`
     /* position: absolute;
     left: 0px;
     top: 0px; */
+
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        height: calc(800px / 3);
+
+        &:nth-child(odd) {
+            display: none;
+        }
+    }
 `;
 
 export const IMG = styled.img`

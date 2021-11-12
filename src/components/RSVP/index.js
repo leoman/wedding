@@ -13,10 +13,19 @@ const Parking = () => (
             <div className="wpb_wrapper">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-xs-12">
-                  <div className="section-title  text-center">
+                  <div className="section-title intro-text text-center">
                     <h2 data-bigletter="R">RSVP</h2>
                     <hr />
-                    <p>Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+                    <p>Please RSVP by this <a href="">link</a>, or please contact us via post/email.</p>
+                    <br />
+                    <h4>Email:</h4>
+                    <p>kirstyandpetewedding@hotmail.com</p>
+                    <br />
+                    <h4>Address:</h4>
+                    <p>801 Stanley Turner House</p>
+                    <p>32 Barry Blandford Way</p>
+                    <p>London</p>
+                    <p>E33XD</p>
                   </div>
                 </div>
               </div>

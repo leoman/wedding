@@ -42,10 +42,34 @@ body {
   justify-content: space-between
 }
 
+.intro-text {
+  margin-bottom: 2px;
+}
+
+.section-title.intro-text p {
+  margin-bottom: .5rem;
+}
+
 @media only screen and (max-width: 768px) {
   section .container {
     padding-top:10px;
     padding-bottom:10px;
   }
+
+  .section-title p {
+    margin-bottom: 1rem;
+  }
 }
 
+form.contact-form {
+  width: 95%;
+}
+
+form.contact-form label {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+form.contact-form .row.padding-bottom {
+  padding: 5px 0 ;
+}

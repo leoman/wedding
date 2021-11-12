@@ -16,32 +16,37 @@ const WeddingDetails = () => (
                   <div className="section-title  text-center">
                     <h2 data-bigletter="W">Wedding</h2>
                   </div>
-                  <div className=" text-center">
+                  <div className="section-title intro-text text-center">
                     <hr />
                     <p>
-                      The wedding will be held on Saturday, March 21, 2016. We'll start with a nonsectarian ceremony, then move to the hotel for the reception. Dress code will be black tie optional.
+                      The wedding will be held on Saturday, April 02, 2022.
                     </p>
 
                     <div className="row">
                       <div className="col-md-6">
                         <h4>CEREMONY</h4>
-                        <p className="">3:00PM – 4:00PM</p>
-                        <p>New Faith Church</p>
-                        <p>415 Greenwich St (at Bethune St)</p>
-                        <p>New York, NY 10014</p>
-                        <p>(212) 555–0123</p>
+                        <p>12:30 arrival for 1:00pm - 1:30pm</p>
+                        <p>Trinity Church</p>
+                        <p>Moor Bottom</p>
+                        <p>Honley, Holmfirth</p>
+                        <p>West Yorkshire</p>
+                        <p>HD9 6DN</p>
                       </div>
                     
                       <div className="col-md-6">
                         <h4>RECEPTION</h4>
-                        <p>5:00PM – 10:00PM</p>
-                        <p>The Monarch</p>
-                        <p>848 Washington St (at W 13th St)</p>
-                        <p>New York, NY 10014</p>
-                        <p>(212) 555–0123</p>
+                        <p>Arrival from 2:00pm, Carriages at 11:30pm</p>
+                        <p>Holmfirth Vineyard</p>
+                        <p>Holmbridge</p>
+                        <p>Holmfirth</p>
+                        <p>West Yorkshire</p>
+                        <p>HD9 2QR</p>
                       </div>
                     </div>
-                    <p>We've reserved a block of rooms at the Wyatt Hotel in Greenwich Village. Just mention the Watson–Gallagher wedding when you reserve.</p>
+                    <br />
+                    <p className="intro-text"><b>2:00pm</b> Join us at the vineyard for drinks and canapes</p>
+                    <p className="intro-text"><b>4:30pm</b> Speeches and Dinner</p>
+                    <p className="intro-text"><b>7:45pm</b> First dance and Disco</p>
                   </div>
                 </div>
               </div>

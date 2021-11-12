@@ -16,42 +16,45 @@ const Email = ({ title, price }) => {
   }
   
   return (
-    <div>
-      <form id="contact-form" onSubmit={onsubmit}>
-        <input type="hidden" name="title" value={title} />
-        <input type="hidden" name="price" value={price} />
-        <div className="row">
-          <div className="col-sm-2">
-            <label className="form-label">Name</label>
-          </div>
-          <div className="col-sm-8">
-            <input className="form-control" type="text" name="user_name" />
-          </div>
+    <form id="contact-form" className="contact-form" onSubmit={onsubmit}>
+      <input type="hidden" name="title" value={title} />
+      <input type="hidden" name="price" value={price} />
+      <div className="row">
+        <div className="col-sm-12">
+          <label className="form-label">Name</label>
         </div>
-        <div className="row">
-          <div className="col-sm-2">
-            <label className="form-label">Email</label>
-          </div>
-          <div className="col-sm-10">
-            <input type="email" className="form-control" name="user_email" />
-          </div>
+      </div>
+      <div className="row padding-bottom">
+        <div className="col-sm-12">
+          <input className="form-control" type="text" name="user_name" />
         </div>
-        <div className="row">
-          <div className="col-sm-2">
-            <label className="form-label">Message</label>
-          </div>
-          <div className="col-md-10 p-4">
-            <textarea className="form-control" name="message"></textarea>
-          </div>
+      </div>
+      <div className="row">
+        <div className="col-sm-2">
+          <label className="form-label">Email</label>
         </div>
-        <div className="row">
-          <div className="col-sm-2"></div>
-          <div className="col-md-10">
-            <input className="btn btn-primary" type="submit" value="Send" />
-          </div>
+      </div>
+      <div className="row padding-bottom">
+        <div className="col-sm-12">
+          <input type="email" className="form-control" name="user_email" />
         </div>
-      </form>
-    </div>
+      </div>
+      <div className="row">
+        <div className="col-sm-12">
+          <label className="form-label">Message</label>
+        </div>
+      </div>
+      <div className="row padding-bottom">
+        <div className="col-md-12 p-4">
+          <textarea className="form-control" name="message"></textarea>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-12">
+          <input className="btn btn-primary" type="submit" value="Send" />
+        </div>
+      </div>
+    </form>
   )
 }
 

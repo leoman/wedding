@@ -45,13 +45,18 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%;
+  width: 60%;
   align-content: space-between;
 `;
 
 export const BankingWrapper = styled.div`
-    width: 50%;
+    width: 40%;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
 `;
 
 export const GiftsListWrapper = styled.div`
@@ -65,6 +70,13 @@ export const GiftWrapper = styled.div`
     margin: 1rem;
     background-color: #f5f5f5;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 768px) {
+        width: calc(50% - 2rem);
+    }
 `;
 
 export const Title = styled.div`
