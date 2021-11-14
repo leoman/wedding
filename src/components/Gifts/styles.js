@@ -20,6 +20,9 @@ export const GiftPopUpWrapper = styled.div`
     outline: 0;
     padding: 10rem;
     justify-content: center;
+    @media only screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const PopUpWrapper = styled.div`
@@ -29,6 +32,9 @@ export const PopUpWrapper = styled.div`
     background-color: #f5f5f5;
     align-self: center;
     z-index: 9055;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const Close = styled.div`

@@ -222,9 +222,9 @@ const GiftPopUp = ({ showPopup, closeGiftPopup, setShowPopup, giftItem: { title,
           {description}
           <br /><br />
           <p><b>Please make a bank transfer to the following details:</b></p>
-          <p><b>Name:</b> Kirsty and Peter<br />
-          <b>Account:</b> 123456789<br />
-          <b>Sort Code:</b> 01-23-56<br />
+          <p><b>Name:</b> Peter Mansell<br />
+          <b>Account:</b> 91507799<br />
+          <b>Sort Code:</b> 04-00-04<br />
           <b>Ref:</b> Your Name</p>
         </Description>
         <Price>{price}</Price>
