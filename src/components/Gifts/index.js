@@ -271,7 +271,9 @@ const Gifts = () => {
                     <div className="section-title  text-center">
                       <h2 data-bigletter="G">Gifts</h2>
                       <hr />
-                      <p>Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+                      <p>Celebrating with us at our wedding means the world to us. While gifts are absolutely not necessary, if you would like to treat us, we would hugely appreciate the opportunity to enjoy some of the experiences below on our honeymoon. We love travelling together - adventuring around the globe has been a huge part of our relationship so far and we can’t wait to explore the world and make some memories as a married couple!</p>
+
+                      <p>We will be aiming to spend time in Hawaii, Japan and Vietnam, and we’re very much looking forward to immersing ourselves in new cultures and landscapes during the summer of 2022.</p>
                     
                       <GiftsList showGiftPopup={showGiftPopup} />
                     </div>
