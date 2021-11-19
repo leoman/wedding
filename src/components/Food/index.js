@@ -34,6 +34,10 @@ const Food = () => (
                     <h4>Dietary Requirements:</h4>
                     <p>Please let us know of any dietary requirements; we can absolutely accommodate this.</p>
                     <p>*If for the main course you need a vegetarian or vegan option, please let us know</p>
+
+                    <h2 data-bigletter="C">Cakes</h2>
+                    <hr />
+                    <p>We will of course be having a cake as part of our wedding reception, but rather than having a traditional giant fruit cake, we're going to have a cake table with lots of different options.  If you are a keen baker and would be willing to contribute to the cake table, we'd love to have a selection of cakes, biscuits desserts or sweet treats baked by our guests to everyone to share and enjoy (and go back for seconds). If you would like to contribute something to the cake table, do let us know so we can shower you with thanks; you are more than welcome to make anything you like and we will put aside some labels where you could list possible allergens so we can make other guests aware.</p>
                   </div>
                 </div>
               </div>
