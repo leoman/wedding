@@ -16,7 +16,7 @@ const Parking = () => (
                   <div className="section-title intro-text text-center">
                     <h2 data-bigletter="R">RSVP</h2>
                     <hr />
-                    <p>Please RSVP by this <a href="">link</a>, or please contact us via post/email.</p>
+                    <p>Please RSVP by this <a href="https://forms.gle/23FZhZR2XjrzNEHC6">link</a>, or please contact us via post/email.</p>
                     <br />
                     <h4>Email:</h4>
                     <p>kirstyandpetewedding@hotmail.com</p>
