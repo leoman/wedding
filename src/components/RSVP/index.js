@@ -19,7 +19,7 @@ const Parking = () => (
                     <p>Please RSVP by this <a href="https://forms.gle/23FZhZR2XjrzNEHC6">link</a>, or please contact us via post/email.</p>
                     <br />
                     <h4>Email:</h4>
-                    <p>kirstyandpetewedding@hotmail.com</p>
+                    <p>kirstyandpeterwedding@hotmail.com</p>
                     <br />
                     <h4>Address:</h4>
                     <p>801 Stanley Turner House</p>
